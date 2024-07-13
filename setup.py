@@ -9,7 +9,7 @@ LONG_DESCRIPTION = "A mind_reader program"
 
 setup(
     name='mind_reader',
-    version='1.0',
+    version='1.0', 
     description='A module to play a mind reading game using Python',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
