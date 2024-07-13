@@ -1,4 +1,11 @@
 from setuptools import setup
+import random
+import os
+import pyttsx3
+
+VERSION = "0.0.1"
+DESCRIPTION ="mind reading by the computer"
+LONG_DESCRIPTION = "A mind_reader program"
 
 setup(
     name='mind_reader',
@@ -17,5 +24,5 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-    ],
+    ]
 )
